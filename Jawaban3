@@ -1,0 +1,7 @@
+print ("==============")
+print ("PROGRAM QUIZ")
+print ("=======================")
+
+
+nama = str(input('Masukan Nama :'))
+nim = int(input('Masukan Nim :'))
