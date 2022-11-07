@@ -1,0 +1,30 @@
+print ('Nama : Aloysius Gonzaga Exata Budisuryono')
+print ('Nim  : 20210801020')
+
+menu = "y" or "Y"
+while menu == "y" or "Y":
+    print(" Pilihan")
+ 
+    print(" 1. capucino")
+    print(" 2. teh")
+    print(" 3. Exit")
+    listMenu=str(input(" Masukan Pilihan = "))
+    if listMenu == "1":
+        namaMenu= " capucino"
+        harga=(5000)
+        pajak= int(harga * 0.1)
+        totalHarga=int(harga+pajak)
+    elif listMenu == "2":
+        namaMenu= " teh"
+        harga = (4000)
+        pajak = int(harga * 0.1)
+        totalHarga =int(harga+pajak)
+    elif listMenu == "3":
+        namaMenu= " Exit"
+        break
+    else:
+        menu=input(" Maaf,Menu yang dipilih tidak tersedia di restoran")
+ 
+    print(" Memilih ",namaMenu)
+    print(" Masukan Harga ", harga)
+    print(" Jumlah yang harus dibayarkan :", totalHarga)
